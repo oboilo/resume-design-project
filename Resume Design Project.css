@@ -1,0 +1,109 @@
+body {
+	font-family: "Gill Sans", Calibri, "Trebuchet MS", sans-serif ;
+}
+.contactinfo, .social {
+	padding: 12px 16px 12px 16px;
+}
+.skills, .explist {
+	padding: 1px 16px 1px 16px;
+}
+
+/*Intro*/
+.intro {
+	float: right;
+}
+.intro {
+	background-color: #2F5A78;
+	color: white;
+	padding-left: 26px;
+	padding-bottom: 12px;
+	margin-bottom: 4px;
+}
+.heading {
+	/* This is a comment */
+	font-size: 35px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.prof {
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+/*Subheadings - Find me, skills, experience, social*/
+.subheading {
+	font-size: 20px;
+	font-weight: bolder;
+	font-variant: normal;
+	color:#2F5A78;
+	text-transform: uppercase;
+	padding-left: 26px;
+	padding: 6px 8px;
+}
+
+/*Contact Information*/
+.contactinfo {
+	font-size: 15px;
+	background-color: #eeeeee;
+}
+.icon { /*Icon for Contact Info & Social*/
+	color: #2F5A78;
+	float: left;
+	padding-left: 4px;
+}
+
+/*Skills Section*/
+.skills ul li {
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: -15px;
+}
+.skills ul li .skill_prog {
+	width: 60%;
+	height: 5px;
+	position: relative;
+}
+.skills ul li .skill_prog span {
+	position: absolute;
+	height: 100%;
+	background: #2F5A78;
+	padding-right: 50px;
+
+}
+.skills {
+	background-color: aliceblue;
+}
+.skill_name {
+	font-weight: bold;
+	width: 4px;
+}
+.skill_per {
+	margin-right: 15px;
+}
+ul {
+	padding-left: 16px;
+}
+
+/*Experience/Education*/
+.explist {
+	background-color: #eeeeee;
+}
+.date {
+	color: #2F5A78;
+	font-size: 16px;
+	font-weight: bold;
+}
+.jobtitle {
+	font-weight: bold;
+}
+.jobdesc {
+	white-space: preline;
+}
+
+/*Social*/
+.social {
+	background-color: aliceblue;
+	height: 18px;
+}

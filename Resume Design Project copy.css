@@ -1,0 +1,157 @@
+body {
+    font-family: "Gill Sans", Calibri, "Trebuchet MS", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin: 10px 30px 20px 30px;
+}
+
+
+/*   Blocks   */
+.intro {
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -15px;
+}
+
+.contactinfo,
+.skills,
+.explist,
+.social {
+    padding: 20px 40px;
+}
+div {
+    border-radius: 20px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contactinfo {
+    display: grid;
+    grid-template-columns: 50px 200px;   
+}
+
+.facebook, .twitter, .linkedin, .github {
+    display: grid;
+    grid-template-columns: 50px 200px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #2F5A78;
+}
+/*   Fonts   */
+
+.heading {
+    /* This is a comment */
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+
+.subheading {
+    font-size: 20px;
+    font-weight: bolder;
+    font-variant: normal;
+    text-transform: uppercase;
+    margin: 10px 0 5px 40px;
+}
+
+.prof {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.contactinfo {
+    font-size: 16px;
+}
+
+/*   Experience/Education   */
+.date {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.jobtitle {
+    font-weight: bold;
+}
+
+.jobdesc {
+    white-space: preline;
+}
+
+
+
+/*   Colors   */
+
+/*Backgrounds-div*/
+.intro {
+    /*background-color: #2F5A78;*/
+    background: linear-gradient(-45deg, #0F2027, #203A43, #2C5364);
+}
+
+.skills,
+.social {
+    /*background-color: aliceblue;*/
+    background: linear-gradient(-45deg, #7F7FD5, #86A8E7, #91EAE4);
+}
+
+.contactinfo,
+.explist {
+    background: linear-gradient(-45deg, #1f4037, #99f2c8);
+    /*background-color: #eeeeee;*/
+}
+
+/*Fonts color*/
+.intro {
+    color: white;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.date,
+.subheading,
+.icon {
+    color: #2F5A78;
+}
+
+
+
+/*   Skills Section   */
+.skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.skills ul li .skill_prog {
+    width: 60%;
+    height: 5px;
+    position: relative;
+}
+
+.skills ul li .skill_prog span {
+    position: absolute;
+    height: 100%;
+    background: #2F5A78;
+    padding-right: 50px;
+
+}
+
+.skill_name {
+    font-weight: bold;
+    width: 4px;
+}
+
+.skill_per {
+    margin-right: 15px;
+}
+
+.skills ul {
+    padding-left: 16px;
+}

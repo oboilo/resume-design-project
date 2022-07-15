@@ -3,6 +3,8 @@ body {
     margin-left: 40px;
     margin-right: 40px;
     margin: 10px 30px 20px 30px;
+    background: linear-gradient(-90deg, #f3f3f3, #ebebeb);
+    max-height: 100%;
 }
 
 
@@ -11,7 +13,7 @@ body {
     padding: 20px 40px 20px 40px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: -15px;
+    margin: 20px 0 -15px 0;
 }
 
 .contact-info,
@@ -20,9 +22,15 @@ body {
 .social {
     padding: 20px 40px;
 }
-div {
+
+.intro,
+.contact-info,
+.skills,
+.explist,
+.social {
     border-radius: 20px;
 }
+
 ul {
     padding: 0px;
     margin: 0px;
@@ -30,16 +38,20 @@ ul {
 
 .contact-info {
     display: grid;
-    grid-template-columns: 50px 200px;   
+    grid-template-columns: 30px 200px;
 }
 
-.facebook, .twitter, .linkedin, .github {
+.link-facebook,
+.link-twitter,
+.link-linkedin,
+.link-github {
     display: grid;
-    grid-template-columns: 50px 200px;
+    grid-template-columns: 30px 200px;
     font-weight: 500;
     text-decoration: none;
     color: #2F5A78;
 }
+
 /*   Fonts   */
 
 .intro__heading {
@@ -47,7 +59,7 @@ ul {
     font-size: 35px;
     font-weight: bolder;
     text-transform: uppercase;
-    
+
 }
 
 .subheading {
@@ -118,6 +130,7 @@ ul {
 .contact-info__icon {
     color: #2F5A78;
 }
+
 .social__text-for-icon,
 .contact-info__data {
     color: #000000;

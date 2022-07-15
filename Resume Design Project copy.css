@@ -126,17 +126,21 @@ ul {
 
 .explist__date,
 .subheading,
-.icon,
+.social__icon,
 .contact-info__icon {
     color: #2F5A78;
 }
 
 .social__text-for-icon,
 .contact-info__data {
+    display: inline-block;
     color: #000000;
     font-weight: 500;
+    transition: all 0.3s ease-in-out;
 }
-
+.social__text-for-icon:hover {
+    background: white;
+}
 
 
 /*   Skills Section   */

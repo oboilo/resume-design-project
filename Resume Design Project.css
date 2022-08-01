@@ -113,11 +113,11 @@ body {
 	height: 100%;
 	padding-right: 50px;
 	background: #2F5A78;
-	/*animation: bounce 1s ease-in-out alternate forwards infinite;*/
+	/*animation: bounce 1s ease-in-out alternate forwards 2;*/
 }
 
 .skills ul li .skills__prog.prog-1 span {
-	animation: prog-1 1s ease-in-out alternate forwards infinite;	
+	animation: prog-1 1s ease-in-out alternate forwards 1;	
 }
 
 @keyframes prog-1 {
@@ -126,7 +126,7 @@ body {
 }
 
 .skills ul li .skills__prog.prog-2 span {
-	animation: prog-2 1s ease-in-out alternate forwards infinite;	
+	animation: prog-2 1s ease-in-out alternate forwards 1;	
 }
 
 @keyframes prog-2 {
@@ -135,7 +135,7 @@ body {
 }
 
 .skills ul li .skills__prog.prog-3 span {
-	animation: prog-3 1s ease-in-out alternate forwards infinite;	
+	animation: prog-3 1s ease-in-out alternate forwards 1;	
 }
 
 @keyframes prog-3 {

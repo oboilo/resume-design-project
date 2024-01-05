@@ -182,3 +182,10 @@ body {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.copyright {
+  font-size: 14px;
+  color: #2F5A78;
+  text-align: center;
+  margin-top: 1rem;
+}

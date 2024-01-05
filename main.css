@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Gill Sans", Calibri, "Trebuchet MS", sans-serif;
+  background: linear-gradient(-90deg, #f3f3f3, #ebebeb);
+  height: 100%;
+  max-height: 100dvh;
+  width: calc(100% - 42px);
+  max-width: 600px;
+  margin: 30px auto;
+  align-items: center;
+}
+
+.subheading {
+  font-size: 20px;
+  font-weight: bolder;
+  font-variant: normal;
+  text-transform: uppercase;
+  margin: 0px 0 5px 40px;
+  color: #2F5A78;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  /*background-color: #2F5A78;*/
+  background: linear-gradient(-45deg, #0F2027, #203A43, #2C5364);
+  /*Fonts color*/
+  color: white;
+}
+
+.intro__heading {
+  /* This is a comment */
+  font-size: 40px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-image: linear-gradient(-45deg, #1f4037, #99f2c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro__prof {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.block {
+  padding: 20px 40px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.block-green {
+  background: linear-gradient(-45deg, #1f4037, #99f2c8);
+}
+
+.block-blue {
+  background: linear-gradient(-45deg, #7F7FD5, #86A8E7, #91EAE4);
+}
+
+.blue-text {
+  color: #2F5A78;
+}
+
+.black-text {
+  color: #000000;
+}
+
+
+/*   Contact Information   */
+.contact-info {
+  display: grid;
+  grid-template-columns: 30px 200px;
+  color: #2F5A78;
+  font-size: 16px;
+}
+
+.contact-info__data {
+  display: inline-block;
+  color: #000000;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+/*   Skills Section   */
+.skills__name {
+  width: 4px;
+  font-weight: bold;
+}
+
+.skills__per {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.skills ul {
+  padding-left: 16px;
+  margin: 0 auto 0 auto;
+}
+
+.skills ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: -15px;
+}
+
+.skills ul li .skills__prog {
+  width: 60%;
+  height: 5px;
+  position: relative;
+}
+
+.skills ul li .skills__prog span {
+  position: absolute;
+  height: 100%;
+  padding-right: 50px;
+  background: #2F5A78;
+}
+
+/*   Experience/Education   */
+.explist__date {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2F5A78;
+}
+
+.explist__job-title {
+  font-weight: bold;
+}
+
+.explist__job-description {
+  white-space: preline;
+}
+
+.explist ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*   Social   */
+.social__link {
+  display: flex;
+  grid-template-columns: 30px 50px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #2F5A78;
+}
+
+.social__icon {
+  color: #2F5A78;
+}
+
+.social__text-for-icon {
+  display: inline-block;
+  position: relative;
+  margin: 0 0 0 10px;
+  font-weight: 500;
+  color: #000000;
+  /*transition: all 0.3s ease-in-out;*/
+}
+
+.social__text-for-icon:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #2f5a79;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.social__text-for-icon:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
